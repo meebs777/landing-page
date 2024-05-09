@@ -2,13 +2,33 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center;
     margin: 0;
     padding: 0;
     height: 100vh;
 }
 .header {
-    
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 16px;
+
+}
+
+.header div {
+    font-size: 24px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .main {
@@ -18,3 +38,4 @@ body {
 .footer {
 
 }
+
