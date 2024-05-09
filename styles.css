@@ -6,13 +6,24 @@ body {
     padding: 0;
     height: 100vh;
 }
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+button {
+    cursor: pointer;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
     background-color: #1F2937;
     color: #F9FAF8;
     padding: 16px;
-
 }
 
 .header div {
@@ -33,6 +44,51 @@ ul {
 
 .main {
     flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.section1 {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section1 .left {
+    flex: 1;
+    padding-left: 100px;
+}
+
+.section1 .right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section1 h1 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+    margin-bottom: 5px;
+
+}
+
+.section1 button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    color: #F9FAF8;
+}
+
+.section1 p {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .footer {
