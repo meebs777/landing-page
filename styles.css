@@ -9,8 +9,8 @@ body {
 
 
 img {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
 }
 
 button {
@@ -110,6 +110,7 @@ ul {
     flex: 1;
     display: flex;
     flex-direction: column;
+    padding-bottom: 20px;
 }
 
 .section2content {
