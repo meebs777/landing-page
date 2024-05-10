@@ -124,7 +124,7 @@ h2 {
 }
 
 .section2 img {
-    border: 2px solid #3882F6;;
+    border: 2px solid #3882F6;
     border-radius: 8px;
 }
 
@@ -155,10 +155,29 @@ h2 {
     text-align: right;
 }
 
+.section4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 .container {
     background-color: #3882F6;
-    
+    display: flex;
+    padding: 16px 64px 16px;
+    color: #F9FAF8;
+    justify-content: space-between;
+    align-items: center;
+    width: 600px;
+    border-radius: 8px;
+    height: 75px;
+}
+
+.right button {
+    border: 1px solid #F9FAF8;
+    background-color: #3882F6;
+    color: #F9FAF8;
 }
 
 .footer {
